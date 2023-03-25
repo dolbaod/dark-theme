@@ -110,14 +110,14 @@ body {
   border-radius: 50%;
   background: white;
   position: absolute;
-  left: 26px;
+  left: 1px;
   top: 1px;
   z-index: 1;
   transition: left 0.2s;
 }
 
 .toggle-active::after {
-  left: 1px;
+  left: 26px;
 }
 
 .nav-list {
@@ -471,7 +471,7 @@ body {
 }
 
 .skills-page {
-  margin-top: 70px;
+  margin-top: 140px;
 }
 @media (max-width: 768px) {
   .skills-page {
